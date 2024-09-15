@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>la porca della madonna</title>
+</head>
+<style>
+
+/* Basic reset */
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+body
+{
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment : fixed;
+    background-size: cover;
+}
+
+.container
+{ 
+    padding-top:300px;
+    text-align:center;  
+}
+
+.container h2 
+{
+    color: aliceblue;
+    opacity: 70%;
+    font-size: 50pt;
+    text-align:center;
+}
+
+.container input[type="text"]
+{
+    width:65%;
+    font-size: 40pt;
+    text-align:center  
+}
+
+.container input[type="submit"]
+{
+    background-color: rgb(2, 131, 160);
+    width:50%;
+    font-size: 50pt;
+    margin-top:20px;
+    border-radius: 12px;
+}
+
+</style>
+<body>
+
+    <div class="container">
+    <form method="post" action="send-mail.php">
+    <h2>Inserisci una bestemmia e inviala a gesù cristo</h2>
+    <br>
+    <input type="text" name="Message" placeholder="invia sta porcodio di bestemmia, figacagna!">
+    <br>
+    <input type="submit">
+    </form>
+</div>
+</body>
+</html>
